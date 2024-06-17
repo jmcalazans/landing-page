@@ -1,23 +1,19 @@
 body {
     margin: 0;
+    font-family: sans-serif;
+    justify-content: center;
 }
 
 .header {
     background: #1f2937;
-    font-size: 18px;
-    color: #e5e7eb;
     display: flex;
     padding: 16px;
     justify-content: space-between;
 }
 
-
-button {
-    background: #3882f6 !important;
-    color: #f9faf8;
-    border-radius: 8px;
+.signup-button-hero {
+    margin-top: 15px;
 }
-
 
 .logo {
     font-size: 24px;
@@ -33,38 +29,50 @@ button {
     display: flex;
     flex: 1;
     justify-content: center;
-    white-space: nowrap;
+}
+
+.hero-section {
+    background: #1f2937;
+    display: flex;
+    margin: 0;
+    padding: 50px;
+    gap: 100px;
 }
 
 .image {
     background: #9faaba;
     width: 300px;
     height: 200px;
-    display: flex;
-    align-items: center;
-    padding: 8px;
-    justify-content: center;
+}
+
+.hero {
+    width: 500px;
 }
 
 .hero-main {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 800;
+    padding-bottom: 8px;
 }
 
-.hero-section {
-    background: #1f2937;
+.hero-section, .header, a {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    width: 0;
     gap: 16px;
     display: flex;
+    list-style-type: none;
+}
+
+button {
+    background: #3882f6 !important;
+    color: #f9faf8;
+    border-radius: 7px;
 }
