@@ -4,6 +4,7 @@ body {
     justify-content: center;
 }
 
+/*********** Header ***********/
 .header {
     background: #1f2937;
     display: flex;
@@ -27,6 +28,7 @@ body {
     justify-content: center;
 }
 
+/*********** Hero ***********/
 .hero-section {
     background: #1f2937;
     display: flex;
@@ -56,13 +58,13 @@ body {
     margin-top: 15px;
 }
 
+/*********** Info box ***********/
 .title {
     font-size: 36px;
     font-weight: 800;
     text-align: center;
     padding: 20px;
 }
-
 
 .information-box {
     display: flex;
@@ -84,6 +86,26 @@ body {
     border-radius: 15px;
     width: 135px;
     height: 135px;
+}
+
+/*********** Quote section ***********/
+.quote-box {
+    background-color: #e5e7eb;
+    margin: 0 50px 20px 50px ;
+    padding: 70px 200px 70px;
+    font-weight: 100;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.author {
+    font-weight: 800;
+    font-size: 24px;
+    text-align: right;
 }
 
 .hero-section, .header, a {
