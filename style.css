@@ -11,10 +11,6 @@ body {
     justify-content: space-between;
 }
 
-.signup-button-hero {
-    margin-top: 15px;
-}
-
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -39,7 +35,7 @@ body {
     gap: 100px;
 }
 
-.image {
+.hero-image {
     background: #9faaba;
     width: 300px;
     height: 200px;
@@ -56,9 +52,47 @@ body {
     padding-bottom: 8px;
 }
 
+.signup-button-hero {
+    margin-top: 15px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.information-box {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 8px;
+}
+
+.placeholder {
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    width: 135px;
+    height: 135px;
+}
+
 .hero-section, .header, a {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.title, .info, .quote-box {
+    color: #1f2937;
 }
 
 a {
