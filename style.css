@@ -121,6 +121,7 @@ body {
 
 .signup-button-callaction {
     border-color: #f9faf8;
+    border-width: 2px;
 }
 
 /*********** Footer ***********/
@@ -129,6 +130,7 @@ body {
     padding: 40px;
 }
 
+/*********** General styling ***********/
 .header, .footer {
     background: #1f2937;
     color: #e5e7eb;
@@ -156,4 +158,6 @@ button {
     background: #3882f6 !important;
     color: #f9faf8;
     border-radius: 7px;
+    border-style: solid;
+    flex-shrink: 0;
 }
