@@ -1,30 +1,20 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    justify-content: center;
 }
 
 /*********** Header ***********/
 .header {
     display: flex;
     padding: 16px;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
-
-.links {
-    align-items: center;
-    gap: 16px;
-    display: flex;
-    flex: 1;
-    justify-content: center;
+    text-align: left;
 }
 
 /*********** Hero ***********/
@@ -34,6 +24,7 @@ body {
     margin: 0;
     padding: 50px;
     gap: 100px;
+    justify-content: center;
 }
 
 .hero-image {
@@ -68,8 +59,10 @@ body {
 .information-box {
     display: flex;
     gap: 50px;
-    padding: 20px;
     text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 20px;
 }
 
 .info {
@@ -90,7 +83,7 @@ body {
 /*********** Quote section ***********/
 .quote-box {
     background-color: #e5e7eb;
-    margin: 0 50px 20px 50px ;
+    margin: 0 50px 20px 50px;
     padding: 70px 200px 70px;
     font-weight: 100;
 }
@@ -154,7 +147,7 @@ a {
 }
 
 ul {
-    gap: 16px;
+    gap: 20px;
     display: flex;
     list-style-type: none;
 }
